@@ -5,9 +5,9 @@ ini_set('display_errors', '0');
 date_default_timezone_set('America/New_York');
 
 $dbhost = 'localhost';
-$dbuser = '';
-$dbpass = '';
-$dbname = 'tasked';
+$dbuser = 'root';
+$dbpass = 'AnkappasS123';
+$dbname = 'clerk';
 
 //Connect
 $mysqli = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
